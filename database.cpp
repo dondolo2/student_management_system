@@ -1,6 +1,9 @@
 #include "database.h"
-#include <QSqlDatabse>
+#include <QSqlDatabase>
 #include <QDebug>
+#include <QSqlQuery>
+#include <QSqlError>
+
 
 bool Database::connect() {
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL");
