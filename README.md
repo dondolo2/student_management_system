@@ -1,62 +1,3 @@
-# First Level Heading
-
-Paragraph.
-
-## Second Level Heading
-
-Paragraph.
-
-- bullet
-+ other bullet
-* another bullet
-    * child bullet
-
-1. ordered
-2. next ordered
-
-### Third Level Heading
-
-Some *italic* and **bold** text and `inline code`.
-
-An empty line starts a new paragraph.
-
-Use two spaces at the end  
-to force a line break.
-
-A horizontal ruler follows:
-
----
-
-Add links inline like [this link to the Qt homepage](https://www.qt.io),
-or with a reference like [this other link to the Qt homepage][1].
-
-    Add code blocks with
-    four spaces at the front.
-
-> A blockquote
-> starts with >
->
-> and has the same paragraph rules as normal text.
-
-First Level Heading in Alternate Style
-======================================
-
-Paragraph.
-
-Second Level Heading in Alternate Style
----------------------------------------
-
-Paragraph.
-
-[1]: https://www.qt.io
-
-Here’s a fresh, clear, and structured `README.md` file tailored for your **hard-coded Qt Creator GUI app using CMake and PostgreSQL (configured later)**. The focus is on modularity, using `QWidget` as the base class, and clean separation of logic for maintainability.
-
----
-
-### 📄 `README.md`
-
-```markdown
 # 🎓 Student Management System (Qt + PostgreSQL)
 
 A clean, modular, hand-coded GUI application built with Qt Creator (CMake-based) using `QWidget` and `PostgreSQL` for database storage (to be configured later). This system is designed to manage users, teachers, students, marks, and basic authentication.
@@ -176,7 +117,6 @@ MIT – free for educational and personal use.
 
 ---
 
-Let me know if you'd like images, badges, or PostgreSQL setup commands included later.
 
 
 
