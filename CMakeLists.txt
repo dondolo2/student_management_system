@@ -12,6 +12,16 @@ qt_add_executable(Student_Management_System
     mainwindow.h
     README.md
     README.md
+    login.h
+    login.cpp
+    admin.h
+    student.h
+    marks.h
+    database.h
+    marks.cpp
+    database.cpp
+    admin.cpp
+    student.cpp
 )
 
 target_link_libraries(Student_Management_System
