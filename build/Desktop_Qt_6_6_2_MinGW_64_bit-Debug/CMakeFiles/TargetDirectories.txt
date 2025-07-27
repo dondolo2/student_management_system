@@ -1,0 +1,9 @@
+C:/Users/Mosa/OneDrive - University of South Africa/Documents/__Qt/Qt6 C++ Course/Student_Management_System/build/Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/Student_Management_System.dir
+C:/Users/Mosa/OneDrive - University of South Africa/Documents/__Qt/Qt6 C++ Course/Student_Management_System/build/Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Mosa/OneDrive - University of South Africa/Documents/__Qt/Qt6 C++ Course/Student_Management_System/build/Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Mosa/OneDrive - University of South Africa/Documents/__Qt/Qt6 C++ Course/Student_Management_System/build/Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/Mosa/OneDrive - University of South Africa/Documents/__Qt/Qt6 C++ Course/Student_Management_System/build/Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/Mosa/OneDrive - University of South Africa/Documents/__Qt/Qt6 C++ Course/Student_Management_System/build/Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/Mosa/OneDrive - University of South Africa/Documents/__Qt/Qt6 C++ Course/Student_Management_System/build/Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/Mosa/OneDrive - University of South Africa/Documents/__Qt/Qt6 C++ Course/Student_Management_System/build/Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/Student_Management_System_autogen_timestamp_deps.dir
+C:/Users/Mosa/OneDrive - University of South Africa/Documents/__Qt/Qt6 C++ Course/Student_Management_System/build/Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/Student_Management_System_autogen.dir

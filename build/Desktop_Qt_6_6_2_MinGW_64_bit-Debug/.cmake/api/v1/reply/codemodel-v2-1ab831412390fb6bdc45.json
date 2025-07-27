@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-db850a06a5b3a0b6baf6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Student_Management_System",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Student_Management_System::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Student_Management_System-Debug-3f0e59982c81f28cdf2b.json",
+					"name" : "Student_Management_System",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Student_Management_System_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Student_Management_System_autogen-Debug-a986b0f67e0053fb1714.json",
+					"name" : "Student_Management_System_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Student_Management_System_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Student_Management_System_autogen_timestamp_deps-Debug-6aebfb25f205dbc2ace1.json",
+					"name" : "Student_Management_System_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Mosa/OneDrive - University of South Africa/Documents/__Qt/Qt6 C++ Course/Student_Management_System/build/Desktop_Qt_6_6_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Mosa/OneDrive - University of South Africa/Documents/__Qt/Qt6 C++ Course/Student_Management_System"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
