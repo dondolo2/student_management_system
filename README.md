@@ -17,13 +17,11 @@ A clean, modular, hand-coded GUI application built with Qt Creator (CMake-based)
 - │
 - ├── login/
 - │   ├── login.cpp
-- │   ├── login.h
-- │   └── login.ui (optional)
+- │   └── login.h
 - │
 - ├── admin/
 - │   ├── admin.cpp            # Admin panel – manages teachers
-- │   ├── admin.h
-- │   └── admin.ui (optional)
+- │   └── admin.h
 - │
 - ├── student/
 - │   ├── student.cpp          # Displays student information
