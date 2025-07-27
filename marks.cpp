@@ -9,7 +9,7 @@ Marks::Marks(QWidget *parent) : QWidget(parent) {
 
     title = new QLabel("Student Marks");
 
-    marksTable = new QTableWidget(3, 3) //dummy table for now
+    marksTable = new QTableWidget(3, 3); //dummy table for now
     marksTable->setHorizontalHeaderLabels({"Name", "Subject", "Mark"});
 
     QVBoxLayout *layout = new QVBoxLayout;

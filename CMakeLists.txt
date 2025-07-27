@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.19)
 project(Student_Management_System LANGUAGES CXX)
 
-find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets Gui Sql)
+find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets Gui Sql PrintSupport)
 
 qt_standard_project_setup()
 
@@ -30,6 +30,7 @@ target_link_libraries(Student_Management_System
         Qt::Widgets
         Qt6::Gui
         Qt6::Sql
+        Qt6::PrintSupport
 )
 
 include(GNUInstallDirs)
