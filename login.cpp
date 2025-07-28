@@ -1,4 +1,5 @@
 #include "login.h"
+#include "mainwindow.h"
 #include <QPushButton>
 #include <QLineEdit>
 #include <QLabel>
@@ -37,7 +38,10 @@ void Login::handleLogin()
     QString pass = passwordInput->text();
 
     if (user == "admin" && pass == "admin") {
-        this->hide();
+        MainWindow *mainWin = new MainWindow;
+        mainWin->show();
+
+        this->close();
         Admin *adminPanel = new Admin;
         adminPanel->show();
     } else if (user == "student" && pass == "student") {
