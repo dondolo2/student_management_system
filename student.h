@@ -20,6 +20,7 @@ public:
 
 private slots:
     void addModuleRow();
+    void loadModules();
     void saveModules();
     void resetModules();
     void showTranscript();
@@ -51,7 +52,7 @@ private:
     QLabel *transcriptHeader;
 
     // 5. Buttons
-    QPushButton *saveBtn, *resetBtn, *transcriptBtn, *printBtn, *logoutBtn;
+    QPushButton *loadBtn, *saveBtn, *resetBtn, *transcriptBtn, *printBtn, *logoutBtn;
 
     void setupUI();
     void setupPersonalDetails();

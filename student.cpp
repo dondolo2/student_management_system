@@ -132,6 +132,11 @@ void Student::addModuleRow() {
     unitLayout->addLayout(row);
 }
 
+void Student::loadModules()
+{
+
+}
+
 void Student::saveModules()
 {
 
@@ -238,16 +243,20 @@ void Student::printTranscript() {
 void Student::setupButtons() {
     QVBoxLayout *section = new QVBoxLayout();
 
+    loadBtn = new QPushButton("Load Results");
+    saveBtn = new QPushButton("Save");
     resetBtn = new QPushButton("Reset");
     transcriptBtn = new QPushButton("Transcript");
     printBtn = new QPushButton("Print");
     logoutBtn = new QPushButton("Logout");
 
+    connect(loadBtn, &QPushButton::clicked, this, &Student::loadModules);
     connect(saveBtn, &QPushButton::clicked, this, &Student::saveModules);
     connect(resetBtn, &QPushButton::clicked, this, &Student::resetModules);
     connect(transcriptBtn, &QPushButton::clicked, this, &Student::showTranscript);
     connect(printBtn, &QPushButton::clicked, this, &Student::printTranscript);
 
+    section->addWidget(loadBtn);
     section->addWidget(saveBtn);
     section->addWidget(resetBtn);
     section->addWidget(transcriptBtn);
