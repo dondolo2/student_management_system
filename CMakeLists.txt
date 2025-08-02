@@ -22,6 +22,10 @@ qt_add_executable(Student_Management_System
     database.cpp
     admin.cpp
     student.cpp
+    teacher.cpp
+    teacher.h
+    database_viewer.h
+    database_viewer.cpp
 )
 
 target_link_libraries(Student_Management_System
