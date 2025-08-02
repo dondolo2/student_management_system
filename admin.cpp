@@ -1,4 +1,6 @@
 #include "admin.h"
+#include "database_viewer.h"
+
 #include <QVBoxLayout>
 #include <QPushButton>
 #include <QLabel>
@@ -25,4 +27,7 @@ void Admin::manageTeachers()
 {
     Marks *marksWindow = new Marks;
     marksWindow->show();
+
+    DatabaseViewer *dbWindow = new DatabaseViewer;
+    dbWindow->show();
 }
